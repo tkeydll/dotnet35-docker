@@ -1,4 +1,4 @@
 FROM microsoft/dotnet-framework:3.5
 WORKDIR \app
-COPY bin\\Debug .
+COPY bin\\Release .
 ENTRYPOINT ["ConsoleApp.exe"]
