@@ -1,3 +1,3 @@
 FROM microsoft/aspnet:3.5
-WORKDIR \app
-COPY DotNet20WebApp .
+WORKDIR /inetpub/wwwroot
+COPY app/DotNet20App .
